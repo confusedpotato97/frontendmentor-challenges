@@ -1,0 +1,143 @@
+body{
+  background-color:white;
+  height: 100%;
+  font-family: 'Fraunces', serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Overpass', sans-serif;
+}
+
+p{ 
+  margin: 0;
+}
+
+
+.black-box{
+  width: 60%;
+  height: auto;
+  padding:150px;
+  background-color: #000000;
+  margin:auto;
+  margin-top:5%;
+  align-items: center;
+  text-align: center;
+}
+
+.gray-box {
+  width: 30%;
+  height: 60%;
+  border-radius: 25px;
+  margin:auto;
+  top:20%;
+  background-color:hsl(213, 19%, 18%);
+  padding:60px 30px;
+
+  
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star{
+  text-align:left;
+}
+
+.star-icon {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding:15px;
+  border-radius: 100px;
+  text-align: left;
+}
+
+.How p { 
+  padding-top:10px;
+  font-size:24px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.description p {
+  padding-top:10px;
+  font-size: 16px;
+  color: hsl(216, 12%, 54%);
+  text-align: left;
+  font-weight: regular!important;
+}
+
+.rating{
+  margin-top:20px;
+  display:flex;
+  flex-direction: row;
+  margin: 20px 0;
+
+}
+
+.ratings {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  padding: 10px;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+  text-align: center;
+  color:white;
+  margin: 0 10px;
+}
+
+
+
+button {
+  margin-top:15px;
+  background-color: hsl(25, 97%, 53%);
+  display: block;
+  width:100%;
+  border-radius: 25px;
+  font-family: 'Fraunces', serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-style: none;
+  color: white;
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.result {
+ align-items: center;
+  margin:10px;
+}
+
+.ratings-result {
+  text-align: center;
+  align-items: center;
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+  padding: 10px;
+  width:200px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.thankyou p {
+  padding-top:10px;
+  font-size:24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.message p {
+  padding-top:10px;
+  text-align: center!important;
+  font-size: 16px;
+  color: hsl(216, 12%, 54%);
+  text-align: left;
+  font-weight: regular!important;
+}
